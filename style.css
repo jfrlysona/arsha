@@ -1,0 +1,231 @@
+header {
+  background-color: #37517E;
+  width: 100%;
+}
+header nav .logoname {
+  margin-left: 125px;
+}
+header nav .logoname a {
+  font-size: 30px;
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+}
+header nav .navitemspart {
+  margin-left: 390px;
+}
+header nav .navitemspart ul li {
+  margin-left: 20px;
+}
+header nav .navitemspart ul li a {
+  display: block;
+  font-size: 15px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+header nav .navitemspart ul li a:hover {
+  color: #47b2e4;
+}
+header nav .navitemspart ul li .getstartedpill {
+  font-size: 14px;
+  border: 2px solid #47b2e4;
+  font-weight: 600;
+  padding: 8px 15px;
+  margin-right: 100px;
+}
+header nav .navitemspart ul li .getstartedpill:hover {
+  background-color: #47b2e4;
+  color: white;
+}
+header nav .navitemspart ul li .dropdownitemspart li {
+  position: relative;
+}
+header nav .navitemspart ul li .dropdownitemspart li a {
+  font-family: "Open Sans", sans-serif;
+  color: #0c3c53;
+  font-size: 14px;
+}
+header nav .navitemspart ul li .dropdownitemspart li svg {
+  width: 12px;
+}
+header nav .navitemspart ul li .dropdownitemspart .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+header nav .navitemspart ul li .dropdownitemspart li:hover .dropdown-submenu {
+  display: block;
+}
+
+.homepage {
+  background-color: #37517E;
+  margin-top: 0;
+}
+.homepage .main-content {
+  margin-left: 125px;
+  margin-top: 75px;
+}
+.homepage .main-content h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: white;
+  font-family: "Jost", sans-serif;
+}
+.homepage .main-content h2 {
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+.homepage .main-content a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  margin-top: 13px;
+}
+.homepage .main-content a:hover {
+  background-color: #37a1d2;
+}
+.homepage .main-content .rounded-pill {
+  font-family: Jost, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 10px 25px 10px;
+  background: #47b2e4;
+}
+.homepage .main-content span {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.homepage .main-content svg {
+  width: 40px;
+}
+.homepage img {
+  margin-right: 100px;
+  height: 490px;
+  width: 600px;
+  margin-top: 30px;
+}
+
+.brand-photos {
+  background-color: #f3f5fa;
+}
+.brand-photos .row {
+  width: fit-content;
+}
+.brand-photos .row .brand-logos {
+  margin-left: 138px;
+  display: block;
+}
+.brand-photos .row .brand-logos .myob {
+  width: 105px;
+  height: 40px;
+  margin-right: 120px;
+}
+.brand-photos .row .brand-logos .belimo {
+  height: 30px;
+  width: 85px;
+  margin-right: 130px;
+}
+.brand-photos .row .brand-logos .lifegroups {
+  height: 33px;
+  width: 87px;
+  margin-right: 130px;
+}
+.brand-photos .row .brand-logos .lilly {
+  height: 50px;
+  width: 100px;
+  margin-right: 130px;
+}
+.brand-photos .row .brand-logos .citrus {
+  height: 33px;
+  width: 89px;
+  margin-right: 130px;
+}
+.brand-photos .row .brand-logos .trustly {
+  height: 28px;
+  width: 90px;
+}
+.brand-photos .row .brand-logos img {
+  filter: grayscale(100);
+}
+.brand-photos .row .brand-logos img:hover {
+  filter: none;
+}
+
+.aboutuspage h1 {
+  font-family: "Jost", sans-serif;
+  color: #37517E;
+  font-size: 32px;
+  font-weight: 700;
+}
+.aboutuspage .aboutustextpart {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #444444;
+}
+.aboutuspage .aboutustextpart svg {
+  width: 20px;
+}
+.aboutuspage .aboutustextpart a {
+  color: #47b2e4;
+  border: solid 2px;
+  border-color: #47b2e4;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  padding: 9px 29px;
+}
+.aboutuspage .aboutustextpart a:hover {
+  color: white;
+  background-color: #47b2e4;
+}
+
+.accordionpage {
+  background-color: #f3f5fa;
+  height: 700px;
+}
+.accordionpage .textpart h2 {
+  color: #37517E;
+  font-size: 34px;
+}
+.accordionpage .textpart p {
+  color: #848484;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+.accordionpage .accordion-item {
+  background-color: white;
+  margin-bottom: 15px;
+  border-style: none;
+}
+.accordionpage .accordion-item .accordion-header {
+  color: #47b2e4;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.accordionpage .accordion-item .accordion-header span {
+  color: #47b2e4;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  margin-right: 15px;
+}
+.accordionpage .accordion-item .accordion-body {
+  font-size: 16px;
+  color: #444444;
+  font-family: "Open Sans", sans-serif;
+}
+.accordionpage img {
+  height: 490px;
+  width: 650px;
+  bottom: 15%;
+}/*# sourceMappingURL=style.css.map */
