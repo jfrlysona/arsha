@@ -3,7 +3,7 @@ header{
     width: 100%;
     nav{
         .logoname{
-            margin-left: 125px;
+            margin-left: 110px;
             a{
                 font-size: 30px;
                 color:white;
@@ -70,7 +70,7 @@ header{
     background-color: #37517E;
     margin-top: 0;
     .main-content{
-        margin-left: 125px;
+        margin-left: 110px;
         margin-top: 75px;
         h1 {
             margin: 0 0 10px 0;
@@ -178,28 +178,37 @@ header{
         svg{
             width: 20px;
         }
-        a{
-            color: #47b2e4;
-            border: solid 2px;
-            border-color: #47b2e4;
-            font-size: 14px;
-            font-weight: 500;
-            font-family: 'Poppins', sans-serif;
-            letter-spacing: 1px;
-            padding: 9px 29px;
-        }
-        a:hover{
-            color: white;
-            background-color: #47b2e4;
-
+        .buttonlink{
+            margin-right:348px;
+            a{
+                color: #47b2e4;
+                border: solid 2px;
+                border-color: #47b2e4;
+                font-size: 14px;
+                font-weight: 500;
+                font-family: 'Poppins', sans-serif;
+                letter-spacing: 1px;
+                padding: 9px 29px;
+            }
+            a:hover{
+                color: white;
+                background-color: #47b2e4;
+    
+            }
         }
     }
 }
 
 .accordionpage{
     background-color:#f3f5fa;
+    background-image:url(https://bootstrapmade.com/demo/templates/Arsha/assets/img/why-us.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 41%;
     height: 700px;
     .textpart{
+        margin-left: 100px;
+        padding-top: 80px;
         h2{
             color: #37517E;
             font-size: 34px;
@@ -211,11 +220,12 @@ header{
         }
     }
     .accordion-item{
+        margin-left: 100px;
         background-color: white;
         margin-bottom: 15px;
         border-style: none;
-        .accordion-header{
-            color: #47b2e4;
+        .accordion-button{
+            color: #444444;
             font-size: 16px;
             font-family: "Poppins", sans-serif;
             font-weight: 500;
@@ -223,9 +233,12 @@ header{
                 color: #47b2e4;
                 font-size: 18px;
                 font-family: "Poppins", sans-serif;
-                font-weight: 800;
+                font-weight: 700;
                 margin-right:15px;
             }
+        }
+        .accordion-button:hover{
+            color: #47b2e4;
         }
         .accordion-body{
             font-size: 16px;
@@ -237,5 +250,116 @@ header{
         height: 490px;
         width: 650px;
         bottom:15%;
+    }
+}
+.progresspage{
+    img{
+        margin-left: 110px;
+        margin-top: 15px;
+        width: 42%;
+        margin-bottom:12px;
+    }
+    .progresspart{
+        h3{
+            margin-top: 18px;
+            color: #37517E;
+            font-size: 32px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+        }
+        p{
+            font-size: 16px;
+            color: #444444;
+            font-family: 'Open Sans', sans-serif;
+        }
+        span{
+            text-transform: uppercase;
+            display: block;
+            font-weight: 600;
+            font-size: 12px;
+            font-family: "Poppins", sans-serif;
+            color: #37517e;
+            margin-bottom: 5px;
+
+        }
+        .progress{
+            margin-bottom: 25px;
+            height: 10px;
+            border-radius: 0%;
+            .progress-bar{
+                background-color: #4668a2;
+           }
+        }
+    }
+}
+.servicespage{
+    background-color: #f3f5fa;
+    h2{
+        color: #37517e;
+        font-size: 32px;
+        font-family: 'Jost', sans-serif;
+        font-weight: 700;
+    }
+    .servicestext{
+        font-size: 16px;
+        color: #444444;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 115px;
+    }
+    .cards{
+        .card-body{
+            padding-right: 10px;
+            a{
+                color: #37517e;
+                font-size: 24px;
+                font-family: 'Jost', sans-serif;
+                font-weight: 500;
+            }
+            p{
+                font-size: 14px;
+                color: #444444;
+                font-family: 'Open Sans', sans-serif;
+            }
+            svg{
+                width: 36px;
+                margin-bottom: 7px;
+            }
+        }
+    }
+}
+.callpage{
+    background-image: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(https://bootstrapmade.com/demo/templates/Arsha/assets/img/cta-bg.jpg);
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding:120px 100px 120px 100px;
+    .maintextpart{
+        h3{
+            color: white;
+            font-size: 28px;
+            font-weight: 700;
+            font-family: Jost, sans-serif;
+        }
+        p{
+            font-size: 16px;
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+    .linkbuttoncall{
+        a{
+            font-family: Jost, sans-serif;
+            font-size: 16px;
+            font-weight:500;
+            letter-spacing: 1px;
+            padding: 10px 35px 10px;
+            border: 2px solid white;
+            color: white;
+        }
+        a:hover{
+            color: white;
+            background-color: #47b2e4;
+            border-style: none;
+        }
     }
 }
